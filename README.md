@@ -1,0 +1,2 @@
+# Kalkulator\
+Autor: Szymon Braune
