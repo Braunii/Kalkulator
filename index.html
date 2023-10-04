@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div id="buttons">
+        <button id="plus" onclick="oblicz('plus'); changecolor('plus')">Dodawanie</button>
+        <button id="minus" onclick="oblicz('minus'); changecolor('minus')">Odejmowanie</button>
+        <button id="razy" onclick="oblicz('iloczyn'); changecolor('razy')">Mnożenie</button>
+        <button id="przez" onclick="oblicz('iloraz'); changecolor('przez')">Dzielenie</button>
+        <button id="dopotegi" onclick="oblicz('do'); changecolor('dopotegi')">Potęga</button>
+    </div>
+    <div id="container">
+        <br>
+        Liczba a: <input type="number" name="a" id="a">
+        <br>
+        Liczba b: <input type="number" name="b" id="b">
+        <br>
+        <p id="wynik">a + b = c</p>
+    </div>
+    <p id="tutorial">Poradnik korzystania: <br> 1.Wprowadź a i b <br> 2. Kliknij działanie</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
