@@ -29,7 +29,7 @@ function oblicz(dzialanie){
         wynik.innerHTML = "Wprowadź prawidłowe liczby";
     }
 
-    if (dzialanie == "iloraz" && b === 0){
+    if (dzialanie == "iloraz" && b === "0"){
         wynik.innerHTML = "Pamiętaj cholero, nie dziel przez zero!";
     }
 }
